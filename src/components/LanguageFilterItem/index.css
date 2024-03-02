@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.list-element {
+  list-style-type: none;
+}
+
+.language-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.active {
+  color: #0284c7;
+  border: 1px solid #0284c7;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+@media screen and (max-width: 767px) {
+  .language-button {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+}

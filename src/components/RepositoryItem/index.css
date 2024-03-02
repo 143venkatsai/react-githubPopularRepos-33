@@ -1,0 +1,63 @@
+/* Write your CSS here */
+
+.repository-list {
+  list-style-type: none;
+  background-color: #f8f8ff;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 25%;
+}
+
+.repo-image {
+  height: 80px;
+  width: 80px;
+  align-self: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #e73959;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.list-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.detail-image {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.repo-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .repository-list {
+    width: 100%;
+  }
+  .repo-image {
+    width: 100px;
+    height: 100px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+}

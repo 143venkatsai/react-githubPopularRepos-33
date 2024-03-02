@@ -1,0 +1,87 @@
+/* Write your CSS here */
+
+* {
+  margin: 0px;
+}
+
+.popular-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  font-family: 'lobster';
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.languages-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+  margin-top: 50px;
+}
+
+.repositories-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 50px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.failure-img {
+  height: 400px;
+  width: 500px;
+}
+
+.failure-content {
+  font-family: 'Bree Serif';
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .main-heading {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  .languages-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+  }
+  .repositories-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding-left: 0px;
+  }
+  .failure-container {
+    width: 70%;
+  }
+  .failure-img {
+    height: 200px;
+    width: 300px;
+  }
+  .failure-content {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+}
